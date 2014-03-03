@@ -47,7 +47,7 @@ static
 	  @Test
 	   public void main() throws Exception {
 		
-	    String url = "http://eventgrid.com/";
+	    String url = "";//set url here
 	    driver.get(url);
 	    waitDocumentReady(60000);
 	   if (firstTime)
